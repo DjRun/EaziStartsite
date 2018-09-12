@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="shortcut icon" href="../imagess/fav_icon.png" type="images/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css.map">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <link rel="stylesheet" href="css/bulma-calendar.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <section  class=" hero  is-fullheight header-images container-fluid consultations">
+        <div class="hero-head">
+            <nav class="navbar is-transparent">
+                <div  class="navbar-brand">
+                    <a href="index.html"><img class="wow flip" src="img/eazilogo.svg"></a>
+                </div>
+                <div id="navbarExampleTransparentExample" class="navbar-menu">
+                  <div class="navbar-start">
+                      <h1>Online Application</h1>
+                  </div>
+                  <div class="navbar-end">
+                    <div class="lang">
+                        <button class="button">EN</button>
+                        <button class="button">AZ</button>
+                    </div>
+                    <a href="www.asoiu.edu.az"><img class="is-hidden-touch" src="img/adnsulogo.svg" alt=""></a>
+                  </div> 
+                </div>
+            </nav>
+        </div>
+        <div  class=" appbody">
+          <form>
+            <div class="columns appcolumns">
+                <div class="column is-1 is-hidden-desktop-only is-hidden-widescreen-only is-hidden-touch"></div>
+                <div class="colum is-5">
+                  <form>
+                    <div class="column is-5" style="margin-left:-10px;">
+                        <span class="required">*</span>
+                        <input type="text" class="input" placeholder="Name">
+                        <span class="required">*</span>
+                        <input type="text" class="input" placeholder="Surname">
+                      </div>
+                      <div class="field">
+                          <div class="control">
+                              <span class="required">*</span>
+                            <input class="input" type="email" placeholder="Email input" value="hello@">
+                          </div>
+                      </div>
+                      <div class="field">
+                          <div class="control has-icons-right birthdate">
+                            <label style="color: white;">Birthdate</label>
+                            <span class="required">*</span>
+                            <input type="date" class="input is-primary" value="Birthdate">
+                              <span style="top: 30px;" class="icon is-medium is-right">
+                                  <i class="fa fa-calendar"></i>
+                                </span>
+                          </div>
+                      </div>
+                      <div class="field">
+                            <p class="control">
+                                <span class="required">*</span>
+                              <span class="select is-fullwidth">
+                                <select>
+                                  <option selected>Where you live (Country)</option>
+                                  <option>Azerbaijan</option>
+                                  <option>Country</option>
+                                </select>
+                              </span>
+                            </p>
+                          </div>
+                      <div class="field">
+                            <p class="control">
+                                <span class="required">*</span>
+                              <span class="select is-fullwidth">
+                                <select>
+                                  <option selected>City</option>
+                                  <option>Baku</option>
+                                  <option>City</option>
+                                </select>
+                              </span>
+                            </p>
+                          </div>
+                          <span class="required">*</span>
+                      <input type="text" class="input" placeholder="Degree">
+                      <span class="required">*</span>
+                      <input type="text" class="input" placeholder="University">
+                      <span class="required">*</span>
+                      <input type="text" class="input" placeholder="Faculty & Speciality">
+                      <span class="required">*</span>
+                      <input type="text" class="input" placeholder="Course">
+                      <span class="required">*</span>
+                      <input type="text" class="input" placeholder="Work">
+                      <span class="required">*</span>
+                      <input type="text" class="input" placeholder="Startup Idea & Project (Name, title &
+                      description)">
+                        <div class="control">
+                            <span class="required">*</span>
+                            <textarea class="textarea" placeholder="Text (About your idea & company)"></textarea>
+                        </div>
+                        <div style="margin-top:15px;" class="file has-name is-right is-fullwidth">
+                            <span class="required">*</span>
+                            <label style="border-radius:100px;" class="file-label">
+                              <input  class="file-input" type="file" name="resume">
+                              <span class="file-cta">
+                                <span  class="file-label">
+                                    File Browser
+                                </span>
+                              </span>
+                              <span style="background-color: white;" class="file-name">
+                                    Your presentation (PDF, DOCX, PPTX)
+                              </span>
+                            </label>
+                        </div>
+                        <div style="margin-top: 15px;" class="file has-name is-right is-fullwidth">
+                            <span class="required">*</span>
+                          <label style="border-radius:100px;" class="file-label">
+                                 <input class="file-input" type="file" name="resume">
+                                 <span class="file-cta">
+                                  <span class="file-label">
+                                    File Browser
+                                  </span>
+                                </span>
+                                <span style="background-color: white;" class="file-name">
+                                       Your resume & CV (PDF, DOCX)
+                                </span>
+                          </label>
+                        </div>
+                              <div style="margin-top: 20px;" class="control">
+                                <span class="required">*</span>
+                                <textarea class="textarea" placeholder="Motivation Letter"></textarea>
+                              </div>
+                      <div class="control">
+                          <button class="button is-link">Submit</button>
+                      </div>
+                  </form>
+                </div>
+            
+                <div class="column is-6">
+                  <h1 class="eve" style="margin-top: -70px;">Calendar</h1>
+                  
+                    <div class="calendar is-large">
+                        <div class="calendar-nav">
+                          <div class="calendar-nav-previous-month">
+                            <button class="button is-small is-text">
+                              <svg viewBox="0 0 50 80" xml:space="preserve">
+                                <polyline fill="none" stroke-width=".5em" stroke-linecap="round" stroke-linejoin="round" points="45.63,75.8 0.375,38.087 45.63,0.375 "></polyline>
+                              </svg>
+                            </button>
+                          </div>
+                          <div class="calendar-month">March 2017</div>
+                          <div class="calendar-nav-next-month">
+                            <button class="button is-small is-text">
+                              <svg viewBox="0 0 50 80" xml:space="preserve">
+                                <polyline fill="none" stroke-width=".5em" stroke-linecap="round" stroke-linejoin="round" points="0.375,0.375 45.63,38.087 0.375,75.8 "></polyline>
+                              </svg>
+                            </button>
+                          </div>
+                        </div>
+                        <div class="calendar-container">
+                          <div class="calendar-header">
+                            <div class="calendar-date">Sun</div>
+                            <div class="calendar-date">Mon</div>
+                            <div class="calendar-date">Tue</div>
+                            <div class="calendar-date">Wed</div>
+                            <div class="calendar-date">Thu</div>
+                            <div class="calendar-date">Fri</div>
+                            <div class="calendar-date">Sat</div>
+                          </div>
+                          <div class="calendar-body">
+                            <div class="calendar-date is-disabled"><button class="date-item">26</button></div>
+                            <div class="calendar-date is-disabled">
+                              <button class="date-item">27</button>
+                            </div>
+                            <div class="calendar-date is-disabled"><button class="date-item">28</button></div>
+                            <div class="calendar-date"><button class="date-item">1</button></div>
+                            <div class="calendar-date"><button class="date-item">2</button></div>
+                            <div class="calendar-date"><button class="date-item">3</button></div>
+                            <div class="calendar-date"><button class="date-item is-today">4</button></div>
+                            <div class="calendar-date" disabled=""><button class="date-item">5</button></div>
+                            <div class="calendar-date"><button class="date-item">6</button></div>
+                            <div class="calendar-date"><button class="date-item">7</button></div>
+                            <div class="calendar-date">
+                              <button class="date-item badge">8</button>
+                              <div class="calendar-events">
+                                <a class="calendar-event is-primary">Primary event</a>
+                                <a class="calendar-event is-warning"></a>
+                                <a class="calendar-event is-danger"></a>
+                              </div>
+                            </div>
+                            <div class="calendar-date"><button class="date-item">9</button></div>
+                            <div class="calendar-date"><button class="date-item">10</button></div>
+                            <div class="calendar-date"><button class="date-item">11</button></div>
+                            <div class="calendar-date">
+                              <button class="date-item">12</button>
+                            </div>
+                            <div class="calendar-date"><button class="date-item">13</button></div>
+                            <div class="calendar-date"><button class="date-item">14</button></div>
+                            <div class="calendar-date"><button class="date-item">15</button></div>
+                            <div class="calendar-date"><button class="date-item">16</button></div>
+                            <div class="calendar-date "><button class="date-item">17</button></div>
+                            <div class="calendar-date"><button class="date-item">18</button></div>
+                            <div class="calendar-date"><button class="date-item">19</button></div>
+                            <div class="calendar-date">
+                              <button class="date-item">20</button>
+                            </div>
+                            <div class="calendar-date"><button class="date-item">21</button></div>
+                            <div class="calendar-date"><button class="date-item">22</button></div>
+                            <div class="calendar-date"><button class="date-item">23</button></div>
+                            <div class="calendar-date"><button class="date-item">24</button></div>
+                            <div class="calendar-date"><button class="date-item">25</button></div>
+                            <div class="calendar-date"><button class="date-item">26</button></div>
+                            <div class="calendar-date"><button class="date-item">27</button></div>
+                            <div class="calendar-date"><button class="date-item">28</button></div>
+                            <div class="calendar-date"><button class="date-item">29</button></div>
+                            <div class="calendar-date"><button class="date-item">30</button></div>
+                            <div class="calendar-date"><button class="date-item">31</button></div>
+                            <div class="calendar-date is-disabled">
+                              <button class="date-item">1</button>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <h1 style="margin-top: 20px;" class="eve">Events</h1>
+                    <div class="columns has-text-centered is-desktop">
+                        
+                      <div  class="column events has-text-centered">
+                        <button class="eventbut">
+                          Workshop with<br>
+                          Dr. Keith Miller
+                        </button>
+                        <h6>
+                          Eazi Start<br>
+                          Startup Center
+                          </h6>
+                          <p class="time">
+                            02.00 PM - 04.00 PM
+                          </p>
+                          <sub>Only Eazi Start Residents</sub>
+                          <a href="#"><button class="eventapp">Apply</button></a>
+
+                        </div>
+                      <div  class="column events has-text-centered">
+                          
+                          <button class="eventbut">
+                              Workshop with<br>
+                              Dr. Keith Miller
+                            </button>
+                            <h6>
+                              Eazi Start<br>
+                              Startup Center
+                              </h6>
+                              <p class="time">
+                                02.00 PM - 04.00 PM
+                              </p>
+                              <sub>Only Eazi Start Residents</sub>
+                              <a href="#"><button class="eventapp">Apply</button></a>
+                      </div>
+                      <div  class="column events has-text-centered">
+                          <button class="eventbut">
+                              Workshop with<br>
+                              Dr. Keith Miller
+                            </button>
+                            <h6>
+                              Eazi Start<br>
+                              Startup Center
+                              </h6>
+                              <p class="time">
+                                  02.00 PM - 04.00 PM
+                              </p>
+                              <sub>Only Eazi Start Residents</sub>
+                              <a href="#"><button class="eventapp">Apply</button></a>
+                      </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="js/bulma-carousel.js"></script>
+<script type="text/javascript" src="js/bulma-carousel.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bulma-carousel@3.0.0/dist/js/bulma-carousel.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/bulma-calendar.min.js"></script>
+<script src="js/bulma-calendar.js"></script>
+
+
+<script>
+    
+    bulmaCalendar.attach('[type="date"]', {
+  overlay: true
+});
+
+
+
+</script>
+</body>
+</html>

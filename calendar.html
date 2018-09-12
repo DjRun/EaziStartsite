@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1"> 
+      <link rel="shortcut icon" href="../imagess/fav_icon.png" type="images/x-icon">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
+      <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-switch@2.0.0/dist/css/bulma-switch.min.css">
+      <link rel="stylesheet" href="css/bulma-calendar.min.css">
+      <link rel="stylesheet" href="css/main.css">
+  </head>
+<body>
+  <section  class=" hero  is-fullheight header-images container-fluid consultations">
+    <div class="hero-head">
+      <nav class="navbar is-transparent">
+        <div  class="navbar-brand">
+          <a href="index.html"><img class="wow flip" src="img/eazilogo.svg"></a>
+            <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div id="navbarExampleTransparentExample" class="navbar-menu">
+          <div  class="navbar-start">
+            <a  class="navbar-item" href="index.html">Home</a>
+            <a class="navbar-item" href="#about">About</a>
+            <a  class="navbar-item" href="#support">Support</a>
+            <a  class="navbar-item" href="#mentors">Mentors</a>
+            <a  class="navbar-item" href="#startups">Startups</a>
+            <a  class="navbar-item" href="#contacts">Contacts</a>
+          </div>
+          <div class="navbar-end">
+            <div class="join">
+              <a href="joinusform.html"><button class="button">Join Us</button></a>
+            </div>
+            <div class="lang">
+                <button class="button">EN</button>
+                <button class="button">AZ</button>
+            </div>
+            <a href="www.asoiu.edu.az/"><img class="is-hidden-touch" src="img/adnsulogo.svg" alt=""></a>
+          </div> 
+        </div>
+      </nav>
+    </div>
+    <div  class="hero-body container concbody">
+      <div class="h4 has-text-centered">
+          <h4>Free Consultation</h4>
+            <p>
+              You can apply to our local and global<br>
+              mentors for training and training.
+            <p>
+      </div>
+    </div>
+    <section class="hero is-success consultation">
+          <div class="hero-body">
+            <div class="container has-text-centered">
+              <div class="one">
+                <div class="button-wrap">
+                  <div class="button-bg">
+                    <div  class="button-out"><input  type="button" value="Local"></div>
+                    <div  class="button-in"><input type="button" value="Global"></div>
+                    <div class="button-switch"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <div class="hero-foot">
+            <nav class="tabs is-boxed is-fullwidth is-large">
+              <div class="container">
+                <ul>
+                  <li class="tab firstli" onclick="openTab(event,'WebDev')"><a >Dr.Keith Miller</a></li>
+                  <li class="tab" onclick="openTab(event,'WebAud')"><a >Igor Peer</a></li>
+                  <li class="tab thirdli" onclick="openTab(event,'Support')"><a >Inna Malyukova</a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+    </section>                    
+    <div class="container section">
+      <div id="WebDev" class="content-tab">
+        <div class="columns">
+          <div class="column is-2">
+            <div class="consimg">
+                <img style="text-align: center;" src="img/1.png" alt="">
+            </div>
+            <div class="startsoci has-text-centered">
+                <a href="#"><img class="img" src="img/twitte.svg" alt=""></a>
+                <a href="#"><img class="img" src="img/faceb.svg" alt=""></a>
+                <a href="#"><img class="img" src="img/link.svg" alt=""></a>
+            </div>
+            <div class="buttons">
+                <a href="consultation.html"><button class="button about">About</button></a>
+                <a href="calendar.html"><button style="padding: 9px 54px 33px 54px;" class="button about cal">Calendar</button></a>
+                <a href="apply.html"><button class="button apply">Apply</button></a>
+            </div>
+          </div>
+          <div class="column is-1"></div>
+          <div class="column is-8">
+            <div class="calendar is-large">
+              <div class="calendar-nav">
+                <div class="calendar-nav-previous-month">
+                  <button class="button is-small is-text">
+                    <svg viewBox="0 0 50 80" xml:space="preserve">
+                      <polyline fill="none" stroke-width=".5em" stroke-linecap="round" stroke-linejoin="round" points="45.63,75.8 0.375,38.087 45.63,0.375 "></polyline>
+                    </svg>
+                  </button>
+                </div>
+                <div class="calendar-month">March 2017</div>
+                <div class="calendar-nav-next-month">
+                  <button class="button is-small is-text">
+                    <svg viewBox="0 0 50 80" xml:space="preserve">
+                      <polyline fill="none" stroke-width=".5em" stroke-linecap="round" stroke-linejoin="round" points="0.375,0.375 45.63,38.087 0.375,75.8 "></polyline>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="calendar-container">
+                <div class="calendar-header">
+                  <div class="calendar-date">Sun</div>
+                  <div class="calendar-date">Mon</div>
+                  <div class="calendar-date">Tue</div>
+                  <div class="calendar-date">Wed</div>
+                  <div class="calendar-date">Thu</div>
+                  <div class="calendar-date">Fri</div>
+                  <div class="calendar-date">Sat</div>
+                </div>
+                <div class="calendar-body">
+                  <div class="calendar-date is-disabled"><button class="date-item">26</button></div>
+                  <div class="calendar-date is-disabled">
+                    <button class="date-item">27</button>
+                    <div class="calendar-events">
+                        <a class="calendar-event">Default event</a>
+                    </div>
+                  </div>
+                  <div class="calendar-date is-disabled"><button class="date-item">28</button></div>
+                  <div class="calendar-date"><button class="date-item">1</button></div>
+                  <div class="calendar-date"><button class="date-item">2</button></div>
+                  <div class="calendar-date"><button class="date-item">3</button></div>
+                  <div class="calendar-date"><button class="date-item is-today">4</button></div>
+                  <div class="calendar-date" disabled=""><button class="date-item">5</button></div>
+                  <div class="calendar-date"><button class="date-item">6</button></div>
+                  <div class="calendar-date"><button class="date-item">7</button></div>
+                  <div class="calendar-date">
+                    <button class="date-item badge">8</button>
+                    <div class="calendar-events">
+                      <a class="calendar-event is-primary">Primary event</a>
+                      <a class="calendar-event is-warning">Warning event</a>
+                      <a class="calendar-event is-danger">Danger event</a>
+                    </div>
+                  </div>
+                  <div class="calendar-date"><button class="date-item">9</button></div>
+                  <div class="calendar-date"><button class="date-item">10</button></div>
+                  <div class="calendar-date"><button class="date-item">11</button></div>
+                  <div class="calendar-date">
+                    <button class="date-item">12</button>
+                    <div class="calendar-events">
+                      <a class="calendar-event">Default event</a>
+                    </div>
+                  </div>
+                  <div class="calendar-date"><button class="date-item">13</button></div>
+                  <div class="calendar-date"><button class="date-item">14</button></div>
+                  <div class="calendar-date"><button class="date-item">15</button></div>
+                  <div class="calendar-date calendar-range calendar-range-start"><button class="date-item is-active">16</button></div>
+                  <div class="calendar-date calendar-range"><button class="date-item">17</button></div>
+                  <div class="calendar-date calendar-range"><button class="date-item">18</button></div>
+                  <div class="calendar-date calendar-range"><button class="date-item">19</button></div>
+                  <div class="calendar-date calendar-range calendar-range-end">
+                    <button class="date-item is-active">20</button>
+                    <div class="calendar-events">
+                      <a class="calendar-event is-success">Success event</a>
+                    </div>
+                  </div>
+                  <div class="calendar-date"><button class="date-item">21</button></div>
+                  <div class="calendar-date"><button class="date-item">22</button></div>
+                  <div class="calendar-date"><button class="date-item">23</button></div>
+                  <div class="calendar-date"><button class="date-item">24</button></div>
+                  <div class="calendar-date"><button class="date-item">25</button></div>
+                  <div class="calendar-date"><button class="date-item">26</button></div>
+                  <div class="calendar-date"><button class="date-item">27</button></div>
+                  <div class="calendar-date"><button class="date-item">28</button></div>
+                  <div class="calendar-date"><button class="date-item">29</button></div>
+                  <div class="calendar-date"><button class="date-item">30</button></div>
+                  <div class="calendar-date"><button class="date-item">31</button></div>
+                  <div class="calendar-date is-disabled">
+                    <button class="date-item">1</button>
+                    <div class="calendar-events">
+                      <a class="calendar-event">Second default event</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column is-1"></div>
+        </div>
+      </div>
+      <div id="WebAud" class="content-tab" style="display:none">
+        <div class="columns">
+          <div class="column is-2">
+            <img src="img/1.png" alt="">
+            <div class="startsoci has-text-centered">
+                <a href="#"><img class="img" src="img/twitte.svg" alt=""></a>
+                <a href="#"> <img class="img" src="img/faceb.svg" alt=""></a>
+                <a href="#"> <img class="img" src="img/link.svg" alt=""></a>
+            </div>
+            <div class="buttons">
+              <a href="consultation.html"><button class="button about">About</button></a>
+              <a href="calendar.html"><button style="padding: 9px 54px 33px 54px;" class="button about cal">Calendar</button></a>
+              <a href="apply.html"><button class="button apply">Apply</button></a>
+            </div>
+          </div>
+          <div class="column is-1"></div>
+          <div class="column is-8">
+            <div class="calendar is-large">
+              <div class="calendar-nav">
+                <div class="calendar-nav-previous-month">
+                  <button class="button is-small is-text">
+                    <svg viewBox="0 0 50 80" xml:space="preserve">
+                      <polyline fill="none" stroke-width=".5em" stroke-linecap="round" stroke-linejoin="round" points="45.63,75.8 0.375,38.087 45.63,0.375 "></polyline>
+                    </svg>
+                  </button>
+                </div>
+                <div class="calendar-month">March 2017</div>
+                <div class="calendar-nav-next-month">
+                  <button class="button is-small is-text">
+                    <svg viewBox="0 0 50 80" xml:space="preserve">
+                      <polyline fill="none" stroke-width=".5em" stroke-linecap="round" stroke-linejoin="round" points="0.375,0.375 45.63,38.087 0.375,75.8 "></polyline>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="calendar-container">
+                <div class="calendar-header">
+                  <div class="calendar-date">Sun</div>
+                  <div class="calendar-date">Mon</div>
+                  <div class="calendar-date">Tue</div>
+                  <div class="calendar-date">Wed</div>
+                  <div class="calendar-date">Thu</div>
+                  <div class="calendar-date">Fri</div>
+                  <div class="calendar-date">Sat</div>
+                </div>
+                <div class="calendar-body">
+                  <div class="calendar-date is-disabled"><button class="date-item">26</button></div>
+                  <div class="calendar-date is-disabled">
+                    <button class="date-item">27</button>
+                    <div class="calendar-events">
+                      <a class="calendar-event">Default event</a>
+                    </div>
+                  </div>
+                  <div class="calendar-date is-disabled"><button class="date-item">28</button></div>
+                  <div class="calendar-date"><button class="date-item">1</button></div>
+                  <div class="calendar-date"><button class="date-item">2</button></div>
+                  <div class="calendar-date"><button class="date-item">3</button></div>
+                  <div class="calendar-date"><button class="date-item is-today">4</button></div>
+                  <div class="calendar-date" disabled=""><button class="date-item">5</button></div>
+                  <div class="calendar-date"><button class="date-item">6</button></div>
+                  <div class="calendar-date"><button class="date-item">7</button></div>
+                  <div class="calendar-date">
+                    <button class="date-item badge">8</button>
+                    <div class="calendar-events">
+                      <a class="calendar-event is-primary">Primary event</a>
+                      <a class="calendar-event is-warning">Warning event</a>
+                      <a class="calendar-event is-danger">Danger event</a>
+                    </div>
+                  </div>
+                  <div class="calendar-date"><button class="date-item">9</button></div>
+                  <div class="calendar-date"><button class="date-item">10</button></div>
+                  <div class="calendar-date"><button class="date-item">11</button></div>
+                  <div class="calendar-date">
+                    <button class="date-item">12</button>
+                    <div class="calendar-events">
+                      <a class="calendar-event">Default event</a>
+                    </div>
+                  </div>
+                  <div class="calendar-date"><button class="date-item">13</button></div>
+                  <div class="calendar-date"><button class="date-item">14</button></div>
+                  <div class="calendar-date"><button class="date-item">15</button></div>
+                  <div class="calendar-date calendar-range calendar-range-start"><button class="date-item is-active">16</button></div>
+                  <div class="calendar-date calendar-range"><button class="date-item">17</button></div>
+                  <div class="calendar-date calendar-range"><button class="date-item">18</button></div>
+                  <div class="calendar-date calendar-range"><button class="date-item">19</button></div>
+                  <div class="calendar-date calendar-range calendar-range-end">
+                    <button class="date-item is-active">20</button>
+                    <div class="calendar-events">
+                      <a class="calendar-event is-success">Success event</a>
+                    </div>
+                  </div>
+                  <div class="calendar-date"><button class="date-item">21</button></div>
+                  <div class="calendar-date"><button class="date-item">22</button></div>
+                  <div class="calendar-date"><button class="date-item">23</button></div>
+                  <div class="calendar-date"><button class="date-item">24</button></div>
+                  <div class="calendar-date"><button class="date-item">25</button></div>
+                  <div class="calendar-date"><button class="date-item">26</button></div>
+                  <div class="calendar-date"><button class="date-item">27</button></div>
+                  <div class="calendar-date"><button class="date-item">28</button></div>
+                  <div class="calendar-date"><button class="date-item">29</button></div>
+                  <div class="calendar-date"><button class="date-item">30</button></div>
+                  <div class="calendar-date"><button class="date-item">31</button></div>
+                  <div class="calendar-date is-disabled">
+                    <button class="date-item">1</button>
+                    <div class="calendar-events">
+                      <a class="calendar-event">Second default event</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column is-1"></div>
+        </div>
+      </div>
+      <div id="Support" class="content-tab" style="display:none">
+        <div class="columns">
+          <div class="column is-2">
+            <img src="img/1.png" alt="">
+            <div class="startsoci has-text-centered">
+                <a href="#"><img class="img" src="img/twitte.svg" alt=""></a>
+                <a href="#"> <img class="img" src="img/faceb.svg" alt=""></a>
+                <a href="#"> <img class="img" src="img/link.svg" alt=""></a>
+            </div>
+            <div class="buttons">
+                <a href="consultation.html"><button class="button about">About</button></a>
+                <a href="calendar.html"><button style="padding: 9px 54px 33px 54px;" class="button about cal">Calendar</button></a>
+                <a href="apply.html"><button class="button apply">Apply</button></a>
+            </div>
+          </div>
+          <div class="column is-1"></div>
+          <div class="column is-8">
+              <p>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                  when an unknown printer took a galley of type and scrambled it to make a type
+                  specimen book. It has survived not only five centuries, but also the leap into 
+                  electronic typesetting, remaining essentially unchanged. It was popularised in 
+                  the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                  and more recently with desktop publishing software like Aldus PageMaker 
+                  including versions of Lorem Ipsum.
+              </p>
+          </div>
+          <div class="column is-1"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+    
+  
+    
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/bulma-calendar.min.js"></script>
+    <script src="js/bulma-calendar.js"></script>
+
+ 
+<script>
+
+
+    $('.button-wrap').on("click", function(){
+    $(this).toggleClass('button-active');
+  });
+
+
+function openTab(evt, tabName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("content-tab");
+  for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tab");
+  for (i = 0; i < x.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" is-active", "");
+  }
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.className += " is-active";
+}
+</script>
+<script>
+        bulmaCalendar.attach('[type="date"]', {
+      overlay: true
+    });
+</script>
+</body>
+</html>
+  

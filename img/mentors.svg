@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 380 343.195">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #20d860;
+        font-size: 36px;
+        font-family: SegoeUI, Segoe UI;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#20d860"/>
+      <stop offset="1" stop-color="#4eff8c" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_419" data-name="Group 419" transform="translate(-75 -3864.805)">
+    <path id="Path_442" data-name="Path 442" class="cls-1" d="M-726.954,3660.805H-867.646v242.8h140.692V3780.753h-82.408v-79.144h82.408Z" transform="translate(943 204)"/>
+    <path id="Path_443" data-name="Path 443" class="cls-1" d="M-726.954,3660.805H-867.646v242.8h140.692V3780.753h-82.408v-79.144h82.408Z" transform="translate(1097.763 204)"/>
+    <text id="Our_Mentors_Partners_Feedbacks" data-name="Our Mentors &amp; Partners
+Feedbacks" class="cls-2" transform="translate(75 4155)"><tspan x="0" y="0">Our Mentors &amp; Partners</tspan><tspan x="0" y="44">Feedbacks</tspan></text>
+  </g>
+</svg>
