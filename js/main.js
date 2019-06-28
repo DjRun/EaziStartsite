@@ -65,7 +65,4 @@
             });
         });
   
-            $(document).ready(function() {
-                var carousels = bulmaCarousel.attach();
-                CarouselInstance.on('carousel:ready', function(item) {});
-            });
+           
